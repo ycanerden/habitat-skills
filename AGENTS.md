@@ -11,11 +11,14 @@ Each skill is a markdown file at `skills/<skill-name>/SKILL.md` with YAML frontm
 - `founder-context` — Set up project context (idea, audience, stage) that all other skills reference
 - `idea-validation` — Validate startup ideas using structured frameworks
 - `competitor-research` — Research competitors, map gaps, find positioning angles
+- `customer-segments` — Generate customer segments with personas, pain points, and outreach per segment
 - `landing-page` — Build conversion-focused landing pages
 - `prototype-sprint` — Plan and execute focused prototype sprints
 - `mvp-scope` — Scope a true MVP from a feature wishlist
+- `pitch-deck` — Create pitches — 30-second elevator pitch, demo scripts, objection prep
 - `first-users` — Find first 10-100 users with targeted playbooks
 - `launch-plan` — Create phased launch strategies
+- `social-content` — Create launch posts, build-in-public updates, and social media content
 
 ## Skill Format
 

@@ -17,6 +17,7 @@ Skills are markdown files that give AI agents specialized knowledge. Install the
 | [`founder-context`](skills/founder-context/SKILL.md) | Set up your project context so all other skills know your idea, audience, and stage |
 | [`idea-validation`](skills/idea-validation/SKILL.md) | Validate your idea with structured frameworks — TAM, problem-solution fit, Mom Test |
 | [`competitor-research`](skills/competitor-research/SKILL.md) | Research competitors, find gaps, and identify positioning angles |
+| [`customer-segments`](skills/customer-segments/SKILL.md) | Generate customer segments with personas, pain points, and outreach per segment |
 
 ### Phase 2: Prototyping & Building
 
@@ -26,12 +27,19 @@ Skills are markdown files that give AI agents specialized knowledge. Install the
 | [`prototype-sprint`](skills/prototype-sprint/SKILL.md) | Plan and execute a focused prototype sprint — scope, prioritize, build |
 | [`mvp-scope`](skills/mvp-scope/SKILL.md) | Cut your feature list down to a true MVP with a clear build checklist |
 
-### Phase 3: Launch & Traction
+### Phase 3: Demo & Pitch
+
+| Skill | Description |
+|-------|-------------|
+| [`pitch-deck`](skills/pitch-deck/SKILL.md) | Create pitches — 30-second elevator pitch, demo scripts, objection prep |
+
+### Phase 4: Launch & Traction
 
 | Skill | Description |
 |-------|-------------|
 | [`first-users`](skills/first-users/SKILL.md) | Find your first 10, then 100 users with a targeted outreach playbook |
 | [`launch-plan`](skills/launch-plan/SKILL.md) | Create a phased launch strategy — pre-launch, launch day, post-launch |
+| [`social-content`](skills/social-content/SKILL.md) | Create launch posts, build-in-public updates, and social media content |
 
 ## Installation
 
