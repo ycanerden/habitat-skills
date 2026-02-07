@@ -6,47 +6,166 @@ A step-by-step guide for non-technical founders. No coding experience needed.
 
 ## What are Habitat Skills?
 
-Habitat Skills are like cheat sheets for AI. When you install them, your AI assistant (Claude) learns how to help you with startup-specific tasks — validating ideas, researching competitors, building landing pages, and more.
+Habitat Skills are like cheat sheets for AI. When you install them, your AI assistant learns how to help you with startup-specific tasks — validating ideas, researching competitors, building landing pages, and more.
 
-Think of it like hiring a startup advisor that lives inside your terminal.
+Think of it like hiring a startup advisor that lives inside your computer.
 
 ---
 
 ## What You Need
 
 1. **A computer** (Mac, Windows, or Linux)
-2. **Claude Code** installed (free to start)
+2. **An AI coding tool** (see options below)
 3. **10 minutes** to set up
 
 That's it. No coding required.
 
 ---
 
-## Step 1: Install Claude Code
+## Choose Your Tool
 
-Claude Code is a terminal-based AI assistant made by Anthropic. Here's how to get it:
+Habitat Skills work with multiple AI tools. Pick the one that fits you best:
 
-### On Mac
+| Tool | Cost | Best For | Setup Difficulty |
+|------|------|----------|-----------------|
+| **Claude Code** | Pro $20/month | Best experience with skills | Easy |
+| **Cursor** | Free tier available | People who prefer a code editor | Easy |
+| **Google Gemini** | Free | Free option, no install needed | Easiest |
+| **Claude.ai / ChatGPT** | Free tiers available | No install needed | Easiest |
 
-Open the **Terminal** app (search for "Terminal" in Spotlight — press Cmd + Space and type "Terminal").
+### At a Habitat Evening?
 
-Then paste this and press Enter:
+Your organizer will share an API key at the start. You just need to:
+
+1. Open Terminal (Cmd + Space → type "Terminal")
+2. Paste the setup command you'll receive at the event
+3. Start building
+
+Skip to [Step 2](#step-2-create-your-project-folder) if your setup is provided at the event.
+
+---
+
+## Option A: Claude Code (Recommended)
+
+The best experience. Skills activate automatically when you ask questions.
+
+### Install
+
+Open **Terminal** (Cmd + Space → type "Terminal" → press Enter).
+
+Paste this and press Enter:
 
 ```
 npm install -g @anthropic-ai/claude-code
 ```
 
-**Don't have npm?** You need Node.js first. Go to [nodejs.org](https://nodejs.org), download the installer, run it, then try the command above again.
+**Don't have npm?** Go to [nodejs.org](https://nodejs.org), download the installer, run it, then try again.
 
 ### First time?
 
-After installing, run:
+Run:
 
 ```
 claude
 ```
 
-It will ask you to log in with your Anthropic account. Follow the prompts. Once you see the Claude prompt (`>`), you're in.
+It will ask you to log in with your Anthropic account. Follow the prompts. Once you see the Claude prompt, you're in.
+
+Then continue to [Step 2](#step-2-create-your-project-folder).
+
+---
+
+## Option B: Cursor (Free Tier Available)
+
+Cursor is a code editor with built-in AI. It has a generous free tier.
+
+### Install
+
+1. Download from [cursor.com](https://cursor.com)
+2. Install and open it
+3. Create your project folder and open it in Cursor
+
+### Add the Skills
+
+In Cursor's terminal (View → Terminal), paste:
+
+```
+git clone https://github.com/ycanerden/habitat-skills.git .cursor/rules/habitat
+```
+
+### Use the Skills
+
+Open Cursor's AI chat (Cmd + L) and type naturally:
+
+```
+Validate my startup idea
+```
+
+Cursor reads the skill files and follows the frameworks automatically.
+
+---
+
+## Option C: Google Gemini (Free)
+
+Google's AI tools are free and work well with these skills.
+
+### Using Google AI Studio (Easiest)
+
+1. Go to [aistudio.google.com](https://aistudio.google.com)
+2. Sign in with your Google account
+3. Start a new chat
+4. Copy a skill file from the [quick links below](#quick-links-to-skill-files)
+5. Paste it into the chat and say:
+
+```
+Use this framework to help me. Here's my idea: [describe your idea]
+
+[paste the skill content here]
+```
+
+Free. No install. Works right now.
+
+### Using Gemini CLI (Terminal)
+
+If you prefer the terminal:
+
+```
+npm install -g @google/gemini-cli
+```
+
+Then follow the same project setup as Claude Code (Steps 2-4 below).
+
+---
+
+## Option D: Claude.ai or ChatGPT (No Install Needed)
+
+Use the skills manually in any AI chat — no terminal required.
+
+### How to Use
+
+1. Go to [claude.ai](https://claude.ai) or [chatgpt.com](https://chatgpt.com)
+2. Open a skill from the quick links below
+3. Copy the full content of the skill file
+4. Paste it into your chat with your idea:
+
+```
+Use the following framework to help me. Here's my idea: [describe your idea]
+
+[paste the skill content here]
+```
+
+### Quick Links to Skill Files
+
+- [Founder Context](https://github.com/ycanerden/habitat-skills/blob/main/skills/founder-context/SKILL.md)
+- [Idea Validation](https://github.com/ycanerden/habitat-skills/blob/main/skills/idea-validation/SKILL.md)
+- [Competitor Research](https://github.com/ycanerden/habitat-skills/blob/main/skills/competitor-research/SKILL.md)
+- [Landing Page](https://github.com/ycanerden/habitat-skills/blob/main/skills/landing-page/SKILL.md)
+- [MVP Scope](https://github.com/ycanerden/habitat-skills/blob/main/skills/mvp-scope/SKILL.md)
+- [Prototype Sprint](https://github.com/ycanerden/habitat-skills/blob/main/skills/prototype-sprint/SKILL.md)
+- [First Users](https://github.com/ycanerden/habitat-skills/blob/main/skills/first-users/SKILL.md)
+- [Launch Plan](https://github.com/ycanerden/habitat-skills/blob/main/skills/launch-plan/SKILL.md)
+
+**Tip:** Bookmark these links for quick access during the evening.
 
 ---
 
@@ -58,7 +177,7 @@ In Terminal, type:
 mkdir my-startup && cd my-startup
 ```
 
-This creates a folder called "my-startup" and moves you into it. You can name it whatever you want.
+This creates a folder called "my-startup" and moves you into it. Name it whatever you want.
 
 ---
 
@@ -67,7 +186,7 @@ This creates a folder called "my-startup" and moves you into it. You can name it
 Still in Terminal, paste this:
 
 ```
-git clone https://github.com/joinhabitat/habitat-skills.git .claude/skills/habitat
+git clone https://github.com/ycanerden/habitat-skills.git .claude/skills/habitat
 ```
 
 This downloads all the Habitat Skills into your project. Done.
@@ -76,23 +195,21 @@ This downloads all the Habitat Skills into your project. Done.
 
 ## Step 4: Start Using the Skills
 
-Launch Claude Code inside your project:
+Launch your AI tool inside your project:
 
 ```
 claude
 ```
 
-Now you can talk to Claude and it knows all the Habitat frameworks. Here's what to try:
+Now you can talk to it and it knows all the Habitat frameworks. Here's what to try:
 
 ### Set Up Your Context (Do This First)
-
-Type:
 
 ```
 Help me set up my founder context
 ```
 
-Claude will ask you about your idea, your audience, and your goals. Answer conversationally — it's like chatting with a co-founder. This saves your info so every other skill knows your situation.
+It will ask you about your idea, your audience, and your goals. Answer conversationally — like chatting with a co-founder. This saves your info so every other skill knows your situation.
 
 ### Validate Your Idea
 
@@ -100,7 +217,7 @@ Claude will ask you about your idea, your audience, and your goals. Answer conve
 Validate my startup idea
 ```
 
-Claude will run your idea through a structured framework — problem severity, market size, riskiest assumptions — and give you a scorecard with next steps.
+Runs your idea through a structured framework — problem severity, market size, riskiest assumptions — and gives you a scorecard with next steps.
 
 ### Research Competitors
 
@@ -108,7 +225,7 @@ Claude will run your idea through a structured framework — problem severity, m
 Research my competitors
 ```
 
-Claude will search for competitors, analyze their strengths and weaknesses, and help you find your positioning angle.
+Searches for competitors, analyzes their strengths and weaknesses, and helps you find your positioning angle.
 
 ### Build a Landing Page
 
@@ -116,7 +233,7 @@ Claude will search for competitors, analyze their strengths and weaknesses, and 
 Build me a landing page
 ```
 
-Claude will write the copy AND the code for a landing page you can deploy tonight.
+Writes the copy AND the code for a landing page you can deploy tonight.
 
 ### Scope Your MVP
 
@@ -124,7 +241,7 @@ Claude will write the copy AND the code for a landing page you can deploy tonigh
 What should my MVP include?
 ```
 
-Claude will help you cut your feature list down to the absolute minimum that tests your core idea.
+Cuts your feature list down to the absolute minimum that tests your core idea.
 
 ### Find Your First Users
 
@@ -132,7 +249,7 @@ Claude will help you cut your feature list down to the absolute minimum that tes
 How do I find my first users?
 ```
 
-Claude will create a playbook with specific outreach templates, channels, and a daily routine.
+Creates a playbook with specific outreach templates, channels, and a daily routine.
 
 ### Plan Your Launch
 
@@ -140,7 +257,7 @@ Claude will create a playbook with specific outreach templates, channels, and a 
 Help me plan my launch
 ```
 
-Claude will build a phased launch strategy — what to do before, during, and after launch day.
+Builds a phased launch strategy — what to do before, during, and after launch day.
 
 ---
 
@@ -148,8 +265,8 @@ Claude will build a phased launch strategy — what to do before, during, and af
 
 If you're at a Habitat evening, here's the recommended order:
 
-| Time | What to Do | Command |
-|------|-----------|---------|
+| Time | What to Do | Say This |
+|------|-----------|----------|
 | **6:00 PM** | Set up your context | "Help me set up my founder context" |
 | **6:15 PM** | Quick validation | "Validate my startup idea" |
 | **6:30 PM** | Scope what to build tonight | "Scope my MVP for tonight" |
@@ -163,12 +280,10 @@ If you're at a Habitat evening, here's the recommended order:
 
 ### "I don't know how to use the terminal"
 
-That's okay. Here's the absolute basics:
+That's okay. Two options:
 
-- **Open Terminal:** On Mac, press Cmd + Space, type "Terminal", press Enter
-- **Type a command and press Enter** to run it
-- **Copy-paste works:** Cmd + V to paste into Terminal
-- That's all you need. Claude does the rest.
+1. **The basics:** Open Terminal (Cmd + Space → "Terminal"), type a command, press Enter. Copy-paste works (Cmd + V). That's all you need.
+2. **Skip the terminal:** Use [Option C](#option-c-google-gemini-free) or [Option D](#option-d-claudeai-or-chatgpt-no-install-needed) — just copy skill content into an AI chat in your browser.
 
 ### "I don't have an idea yet"
 
@@ -178,26 +293,23 @@ Start with:
 I don't have a specific idea yet. Help me brainstorm based on problems I've experienced.
 ```
 
-Claude will walk you through it.
+The AI will walk you through it.
 
 ### "I tried a command and got an error"
 
-Paste the error message to Claude:
+Paste the error message to your AI tool:
 
 ```
 I got this error: [paste the error here]. What do I do?
 ```
 
-Claude can usually fix it for you.
-
-### "Can I use this without Claude Code?"
-
-The skills are markdown files — they work with any AI coding tool that supports them (Cursor, Codex, etc.). But Claude Code is the easiest way to get started.
+It can usually fix it for you.
 
 ### "Do I need to pay for anything?"
 
-- **Claude Code:** Has a free tier. The Pro plan ($20/month) gives you more usage.
 - **Habitat Skills:** Free and open source, forever.
+- **At a Habitat evening:** Access is provided — you don't need to pay for anything.
+- **On your own:** Google Gemini is free. Claude.ai and ChatGPT have free tiers. Claude Code Pro is $20/month. Cursor has a free tier.
 
 ---
 
@@ -205,8 +317,8 @@ The skills are markdown files — they work with any AI coding tool that support
 
 Save this for the evening:
 
-| I want to... | Say this to Claude |
-|--------------|-------------------|
+| I want to... | Say this |
+|--------------|---------|
 | Set up my project | "Help me set up my founder context" |
 | Test my idea | "Validate my startup idea" |
 | Research competitors | "Research my competitors" |
@@ -223,6 +335,6 @@ Save this for the evening:
 
 - **At a Habitat evening?** Raise your hand — mentors are here to help.
 - **Building on your own?** Ask in the Habitat community or open an issue on GitHub.
-- **Found a bug or have a suggestion?** [Open an issue](https://github.com/joinhabitat/habitat-skills/issues) on GitHub.
+- **Found a bug or have a suggestion?** [Open an issue](https://github.com/ycanerden/habitat-skills/issues) on GitHub.
 
 Happy building.

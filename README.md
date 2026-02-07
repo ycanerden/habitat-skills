@@ -39,7 +39,7 @@ Skills are markdown files that give AI agents specialized knowledge. Install the
 
 ```bash
 # Clone into your project
-git clone https://github.com/joinhabitat/habitat-skills.git .claude/skills/habitat
+git clone https://github.com/ycanerden/habitat-skills.git .claude/skills/habitat
 ```
 
 ### Manual Install
@@ -51,7 +51,7 @@ git clone https://github.com/joinhabitat/habitat-skills.git .claude/skills/habit
 ### Git Submodule
 
 ```bash
-git submodule add https://github.com/joinhabitat/habitat-skills.git .claude/skills/habitat
+git submodule add https://github.com/ycanerden/habitat-skills.git .claude/skills/habitat
 ```
 
 ## Usage

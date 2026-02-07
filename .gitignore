@@ -14,3 +14,6 @@ node_modules/
 # Environment
 .env
 .env.local
+
+# Internal docs (not for public repo)
+EVENT-SETUP.md
