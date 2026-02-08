@@ -240,6 +240,41 @@ For a founder posting 3x/week on LinkedIn:
 - After each Habitat evening: Event recap with photos
 - When you hit a milestone: Numbers celebration post
 
+## Copywriting Frameworks
+
+Use these frameworks to structure your posts for maximum impact. Don't just follow templates; understand the psychology behind them.
+
+### 1. PAS: Problem, Agitation, Solution
+The most effective framework for early-stage startups solving a specific pain point.
+- **Problem:** Clearly state a problem your audience faces.
+- **Agitation:** Twist the knife. Describe the emotional or financial cost of the problem.
+- **Solution:** Introduce your product as the bridge to a better reality.
+
+### 2. AIDA: Attention, Interest, Desire, Action
+Classic marketing framework for launches and "big idea" posts.
+- **Attention:** A scroll-stopping hook (bold claim, surprising stat).
+- **Interest:** Interesting details or data that keep them reading.
+- **Desire:** Show the "after" state. What does life look like with your solution?
+- **Action:** A clear, single call to action.
+
+### 3. BAB: Before, After, Bridge
+Perfect for "Build in Public" and customer transformation stories.
+- **Before:** The status quo (how it used to be).
+- **After:** The new reality (how it is now).
+- **Bridge:** How your product/process made that transformation possible.
+
+## Psychological Triggers
+
+Incorporate these triggers to increase engagement and conversion:
+
+- **Curiosity Gap:** Start with a question or a partial story that can only be completed by reading the post.
+- **Social Proof (Types):**
+    - *Expert:* Mention influencers or experts using your tool.
+    - *User:* Share testimonials or user numbers.
+    - *Wisdom of the Crowd:* "100+ founders joined last night."
+- **Loss Aversion:** Highlight what they are losing by *not* using your solution (e.g., wasted time, missed opportunities).
+- **Specifics vs. Generalities:** "Save 4.5 hours" is more believable and compelling than "Save time."
+
 ## Writing Principles
 
 ### Be Specific
@@ -254,6 +289,11 @@ For a founder posting 3x/week on LinkedIn:
 The first line determines if anyone reads the rest.
 - Bad: "I've been thinking a lot about startups lately..."
 - Good: "I launched my startup in 5 hours last night."
+- **Hook formulas:**
+    - The Transformation: "I went from [X] to [Y] in [Z] days."
+    - The Contrarian: "Most founders think [X]. They're wrong. Here's why."
+    - The Open Loop: "I almost quit building [Product] yesterday. Here's what changed my mind."
+    - The Lesson: "I spent $500 on ads and got 0 signups. Here are 3 things I learned."
 
 ### One Idea Per Post
 Don't combine your launch announcement with your life philosophy. One post, one idea.
@@ -263,6 +303,10 @@ Don't combine your launch announcement with your life philosophy. One post, one 
 - Invite people to try it
 - Tag relevant people
 - Ask for feedback
+- **CTA types:**
+    - *Direct:* "Click the link in the comments."
+    - *Low-friction:* "Reply 'YES' if you want the checklist."
+    - *Engagement:* "What's the one thing you're building this week?"
 
 ### Avoid
 - Humble bragging ("I'm so grateful for this incredible milestone of 10 users")

@@ -1,51 +1,50 @@
-# Habitat Skills — AI Agent Skills for Founders
+# Habitat Skills — The Operating System for Founders
 
-A collection of AI agent skills that help aspiring founders go from idea to launched product. Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible AI coding agents.
+A collection of AI agent skills that turn your AI coder into a Co-Founder and Marketing Director. Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible AI agents.
 
 From the team behind [Habitat](https://joinhabitat.eu) — where 101+ founders have launched prototypes in a single evening.
 
-## What are skills?
+## The "Founder as Director" Philosophy
 
-Skills are markdown files that give AI agents specialized knowledge. Install them in your project, and your agent knows how to validate ideas, research competitors, scope MVPs, and build landing pages — using the same frameworks experienced founders use.
+Inspired by the methodologies of Corey Haines and the Habitat 5-hour sprint, these skills are designed to empower you to act as a **Director**. Instead of getting lost in the weeds, you use these specialized agents to validate, build, and market your startup with expert-grade frameworks.
 
 ## Available Skills
 
-### Getting Started
+### Meta & Operations
 
 | Skill | Description |
 |-------|-------------|
-| [`onboarding`](skills/onboarding/SKILL.md) | **Start here.** Introduces Habitat Skills, shows value from one sentence, sets up your context |
+| [`sprint-coach`](skills/sprint-coach/SKILL.md) | **NEW.** Your timed facilitator for a 5-hour launch sprint. Momentum over perfection. |
+| [`onboarding`](skills/onboarding/SKILL.md) | Start here. Introduces Habitat Skills and sets up your environment. |
 
 ### Phase 1: Ideation & Validation
+*Skills for deep research and strategic positioning.*
 
 | Skill | Description |
 |-------|-------------|
-| [`founder-context`](skills/founder-context/SKILL.md) | Deep-dive context enrichment — business model, team, validation status |
-| [`idea-validation`](skills/idea-validation/SKILL.md) | Validate your idea with structured frameworks — TAM, problem-solution fit, Mom Test |
-| [`competitor-research`](skills/competitor-research/SKILL.md) | Research competitors, find gaps, and identify positioning angles |
-| [`customer-segments`](skills/customer-segments/SKILL.md) | Generate customer segments with personas, pain points, and outreach per segment |
+| [`founder-context`](skills/founder-context/SKILL.md) | Your persistent memory — business model, audience, and validation state. |
+| [`idea-validation`](skills/idea-validation/SKILL.md) | Structured frameworks (TAM, Problem-Solution, Mom Test). |
+| [`competitor-research`](skills/competitor-research/SKILL.md) | Find gaps and identify "unfair" positioning angles. |
+| [`customer-segments`](skills/customer-segments/SKILL.md) | Personas, pain points, and specific outreach playbooks. |
 
 ### Phase 2: Prototyping & Building
+*Skills for shipping functional cores, not just code.*
 
 | Skill | Description |
 |-------|-------------|
-| [`landing-page`](skills/landing-page/SKILL.md) | Build a conversion-focused landing page — copy, structure, and code |
-| [`prototype-sprint`](skills/prototype-sprint/SKILL.md) | Plan and execute a focused prototype sprint — scope, prioritize, build |
-| [`mvp-scope`](skills/mvp-scope/SKILL.md) | Cut your feature list down to a true MVP with a clear build checklist |
+| [`landing-page`](skills/landing-page/SKILL.md) | Conversion-focused copy and code using psychological triggers. |
+| [`prototype-sprint`](skills/prototype-sprint/SKILL.md) | Execution plan for a focused build session. |
+| [`mvp-scope`](skills/mvp-scope/SKILL.md) | Ruthlessly cut features down to a true, shippable MVP. |
 
-### Phase 3: Demo & Pitch
-
-| Skill | Description |
-|-------|-------------|
-| [`pitch-deck`](skills/pitch-deck/SKILL.md) | Create pitches — 30-second elevator pitch, demo scripts, objection prep |
-
-### Phase 4: Launch & Traction
+### Phase 3: Launch & Traction
+*Expert-grade marketing skills for the first 100 users.*
 
 | Skill | Description |
 |-------|-------------|
-| [`first-users`](skills/first-users/SKILL.md) | Find your first 10, then 100 users with a targeted outreach playbook |
-| [`launch-plan`](skills/launch-plan/SKILL.md) | Create a phased launch strategy — pre-launch, launch day, post-launch |
-| [`social-content`](skills/social-content/SKILL.md) | Create launch posts, build-in-public updates, and social media content |
+| [`social-content`](skills/social-content/SKILL.md) | **ENHANCED.** Content using PAS, AIDA, and BAB copywriting frameworks. |
+| [`first-users`](skills/first-users/SKILL.md) | Find your first 10-100 users with targeted outreach playbooks. |
+| [`launch-plan`](skills/launch-plan/SKILL.md) | Phased launch strategy: Pre-launch -> Launch Day -> Post-launch. |
+| [`pitch-deck`](skills/pitch-deck/SKILL.md) | Elevator pitches, demo scripts, and objection prep. |
 
 ## Installation
 
