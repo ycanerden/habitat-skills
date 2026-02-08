@@ -12,9 +12,20 @@ You are helping a founder set up their project context. This file will be refere
 
 Check if `.claude/founder-context.md` already exists.
 
-**If it exists:** Read it, summarize what's captured, and ask which sections need updating.
+**If it exists with minimal context (from onboarding):**
+The file may contain only basics (idea, audience, stage) plus a quick validation snapshot. In this case, say:
 
-**If it doesn't exist:** Offer two paths:
+> "I see you've already set up the basics during onboarding. Let me help you go deeper. I'll walk through a few more areas — competitive landscape, business model, validation status, and your team. This gives every other skill richer context to work with."
+
+Then proceed to gather only the MISSING sections — skip sections that already have good content.
+
+**If it exists with full context:**
+Read it, summarize what's captured, and ask which sections need updating.
+
+**If it doesn't exist:**
+Suggest running onboarding first: "Looks like you haven't set up your context yet. Want to start with a quick onboarding? Just say **get started** and I'll walk you through it in under 2 minutes."
+
+If they prefer to skip onboarding, offer two paths:
 
 1. **Auto-draft from codebase** (recommended if project exists) — Scan README, package.json, landing page copy, any docs. Draft the context file and ask for corrections.
 2. **Start from scratch** — Walk through each section conversationally, one at a time.

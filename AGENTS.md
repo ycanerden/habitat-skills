@@ -8,7 +8,8 @@ Each skill is a markdown file at `skills/<skill-name>/SKILL.md` with YAML frontm
 
 ### Available Skills
 
-- `founder-context` — Set up project context (idea, audience, stage) that all other skills reference
+- `onboarding` — First-time user experience. Introduces skills, shows immediate value, sets up context progressively
+- `founder-context` — Deep-dive context enrichment (business model, team, validation) that all other skills reference
 - `idea-validation` — Validate startup ideas using structured frameworks
 - `competitor-research` — Research competitors, map gaps, find positioning angles
 - `customer-segments` — Generate customer segments with personas, pain points, and outreach per segment

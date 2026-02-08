@@ -6,6 +6,12 @@ The app tracks your progress. The skills do the thinking.
 
 ---
 
+## First Time? Start Here
+
+Before Phase 1, run the onboarding skill. Just say **"Get started"** — it takes under 2 minutes, shows you what Habitat Skills can do, and sets up your context automatically.
+
+---
+
 ## Phase 1: Idea & Business Model (60 min)
 
 **App tasks:** Problem statement, solution, target customer, unfair advantage, problem validation, success metrics

@@ -10,11 +10,17 @@ Skills are markdown files that give AI agents specialized knowledge. Install the
 
 ## Available Skills
 
+### Getting Started
+
+| Skill | Description |
+|-------|-------------|
+| [`onboarding`](skills/onboarding/SKILL.md) | **Start here.** Introduces Habitat Skills, shows value from one sentence, sets up your context |
+
 ### Phase 1: Ideation & Validation
 
 | Skill | Description |
 |-------|-------------|
-| [`founder-context`](skills/founder-context/SKILL.md) | Set up your project context so all other skills know your idea, audience, and stage |
+| [`founder-context`](skills/founder-context/SKILL.md) | Deep-dive context enrichment — business model, team, validation status |
 | [`idea-validation`](skills/idea-validation/SKILL.md) | Validate your idea with structured frameworks — TAM, problem-solution fit, Mom Test |
 | [`competitor-research`](skills/competitor-research/SKILL.md) | Research competitors, find gaps, and identify positioning angles |
 | [`customer-segments`](skills/customer-segments/SKILL.md) | Generate customer segments with personas, pain points, and outreach per segment |
@@ -85,8 +91,8 @@ Or invoke directly:
 ## Quick Start
 
 1. Install the skills
-2. Run `/founder-context` to set up your project context
-3. Start building — try `/idea-validation` to test your idea
+2. Say **"Get started"** — the onboarding skill walks you through everything in under 2 minutes
+3. Follow the recommended next step based on your stage
 
 ## Built by Habitat
 

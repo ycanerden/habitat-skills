@@ -203,13 +203,13 @@ claude
 
 Now you can talk to it and it knows all the Habitat frameworks. Here's what to try:
 
-### Set Up Your Context (Do This First)
+### Get Started (Do This First)
 
 ```
-Help me set up my founder context
+Get started
 ```
 
-It will ask you about your idea, your audience, and your goals. Answer conversationally — like chatting with a co-founder. This saves your info so every other skill knows your situation.
+The onboarding skill will welcome you, ask for your idea in one sentence, and immediately show you what it can do. It takes under 2 minutes and sets up everything for the other skills.
 
 ### Validate Your Idea
 
@@ -267,7 +267,7 @@ If you're at a Habitat evening, here's the recommended order:
 
 | Time | What to Do | Say This |
 |------|-----------|----------|
-| **6:00 PM** | Set up your context | "Help me set up my founder context" |
+| **6:00 PM** | Get started | "Get started" |
 | **6:15 PM** | Quick validation | "Validate my startup idea" |
 | **6:30 PM** | Scope what to build tonight | "Scope my MVP for tonight" |
 | **6:45 PM** | Start building | "Build me a landing page" or "Help me prototype this" |
@@ -319,7 +319,7 @@ Save this for the evening:
 
 | I want to... | Say this |
 |--------------|---------|
-| Set up my project | "Help me set up my founder context" |
+| Set up my project | "Get started" |
 | Test my idea | "Validate my startup idea" |
 | Research competitors | "Research my competitors" |
 | Decide what to build | "Scope my MVP" |
