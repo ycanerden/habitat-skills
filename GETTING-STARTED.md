@@ -15,7 +15,7 @@ Think of it like hiring a startup advisor that lives inside your computer.
 ## What You Need
 
 1. **A computer** (Mac, Windows, or Linux)
-2. **An AI coding tool** (see options below)
+2. **An AI tool** (see options below)
 3. **10 minutes** to set up
 
 That's it. No coding required.
@@ -26,12 +26,20 @@ That's it. No coding required.
 
 Habitat Skills work with multiple AI tools. Pick the one that fits you best:
 
-| Tool | Cost | Best For | Setup Difficulty |
-|------|------|----------|-----------------|
-| **Claude Code** | Pro $20/month | Best experience with skills | Easy |
-| **Cursor** | Free tier available | People who prefer a code editor | Easy |
-| **Google Gemini** | Free | Free option, no install needed | Easiest |
-| **Claude.ai / ChatGPT** | Free tiers available | No install needed | Easiest |
+| Tool | Cost | Best For | Setup |
+|------|------|----------|-------|
+| **Claude Code** | Pro $20/month | Best skills experience | Terminal |
+| **Gemini CLI** | Free | Free terminal option | Terminal |
+| **Cursor** | Free tier available | People who prefer an IDE | IDE |
+| **Google Antigravity** | Free | Free IDE, no API key needed | IDE |
+| **Google AI Studio** | Free | No install needed | Browser |
+| **Claude.ai / ChatGPT** | Free tiers available | No install needed | Browser |
+
+**Not sure?** Here's the simple guide:
+- **Have a terminal and want the best experience?** → Claude Code
+- **Have a terminal and want free?** → Gemini CLI
+- **Prefer a code editor (IDE)?** → Cursor or Antigravity
+- **Don't want to install anything?** → Google AI Studio, Claude.ai, or ChatGPT
 
 ### At a Habitat Evening?
 
@@ -45,15 +53,15 @@ Skip to [Step 2](#step-2-create-your-project-folder) if your setup is provided a
 
 ---
 
-## Option A: Claude Code (Recommended)
+## Terminal Options
+
+### Option A: Claude Code (Recommended)
 
 The best experience. Skills activate automatically when you ask questions.
 
-### Install
+**Install:**
 
 Open **Terminal** (Cmd + Space → type "Terminal" → press Enter).
-
-Paste this and press Enter:
 
 ```
 npm install -g @anthropic-ai/claude-code
@@ -61,55 +69,103 @@ npm install -g @anthropic-ai/claude-code
 
 **Don't have npm?** Go to [nodejs.org](https://nodejs.org), download the installer, run it, then try again.
 
-### First time?
-
-Run:
-
-```
-claude
-```
-
-It will ask you to log in with your Anthropic account. Follow the prompts. Once you see the Claude prompt, you're in.
+**First time?** Run `claude` and follow the login prompts. Once you see the Claude prompt, you're in.
 
 Then continue to [Step 2](#step-2-create-your-project-folder).
 
 ---
 
-## Option B: Cursor (Free Tier Available)
+### Option B: Gemini CLI (Free)
+
+Google's free terminal AI. Uses the same skills format as Claude Code — no changes needed.
+
+**Install:**
+
+```
+npm install -g @google/gemini-cli
+```
+
+**Don't have npm?** Go to [nodejs.org](https://nodejs.org), download the installer, run it, then try again.
+
+**First time?** Run `gemini` and sign in with your Google account. Free tier gives you 60 requests/minute and 1,000/day — more than enough for an evening.
+
+**Install skills:**
+
+After creating your project folder ([Step 2](#step-2-create-your-project-folder)), clone the skills:
+
+```
+git clone https://github.com/ycanerden/habitat-skills.git .gemini/skills/habitat
+```
+
+Then run `gemini` in your project folder and type "Get started."
+
+---
+
+## IDE Options
+
+### Option C: Cursor (Free Tier Available)
 
 Cursor is a code editor with built-in AI. It has a generous free tier.
 
-### Install
+**Install:**
 
 1. Download from [cursor.com](https://cursor.com)
 2. Install and open it
 3. Create your project folder and open it in Cursor
 
-### Add the Skills
+**Add the skills:**
 
 In Cursor's terminal (View → Terminal), paste:
 
 ```
-git clone https://github.com/ycanerden/habitat-skills.git .cursor/rules/habitat
+git clone https://github.com/ycanerden/habitat-skills.git .cursor/skills/habitat
 ```
 
-### Use the Skills
+**Use the skills:**
 
 Open Cursor's AI chat (Cmd + L) and type naturally:
 
 ```
-Validate my startup idea
+Get started
 ```
 
 Cursor reads the skill files and follows the frameworks automatically.
 
 ---
 
-## Option C: Google Gemini (Free)
+### Option D: Google Antigravity (Free)
 
-Google's AI tools are free and work well with these skills.
+Google's free code editor (VS Code fork) with built-in Gemini AI. No API key needed — just sign in with Google.
 
-### Using Google AI Studio (Easiest)
+**Install:**
+
+1. Download from [developers.google.com/gemini/antigravity](https://developers.google.com/gemini/antigravity)
+2. Install and open it
+3. Create your project folder and open it in Antigravity
+
+**Add the skills:**
+
+Open the terminal in Antigravity (View → Terminal), paste:
+
+```
+git clone https://github.com/ycanerden/habitat-skills.git .gemini/skills/habitat
+```
+
+**Use the skills:**
+
+Open the AI chat panel and type:
+
+```
+Get started
+```
+
+It works just like Cursor but uses Gemini (free) instead of Claude/GPT.
+
+---
+
+## Browser Options (No Install Needed)
+
+### Option E: Google AI Studio (Easiest + Free)
 
 1. Go to [aistudio.google.com](https://aistudio.google.com)
 2. Sign in with your Google account
@@ -125,23 +181,11 @@ Use this framework to help me. Here's my idea: [describe your idea]
 
 Free. No install. Works right now.
 
-### Using Gemini CLI (Terminal)
-
-If you prefer the terminal:
-
-```
-npm install -g @google/gemini-cli
-```
-
-Then follow the same project setup as Claude Code (Steps 2-4 below).
-
 ---
 
-## Option D: Claude.ai or ChatGPT (No Install Needed)
+### Option F: Claude.ai or ChatGPT (No Install Needed)
 
 Use the skills manually in any AI chat — no terminal required.
-
-### How to Use
 
 1. Go to [claude.ai](https://claude.ai) or [chatgpt.com](https://chatgpt.com)
 2. Open a skill from the quick links below
@@ -156,14 +200,18 @@ Use the following framework to help me. Here's my idea: [describe your idea]
 
 ### Quick Links to Skill Files
 
+- [Onboarding](https://github.com/ycanerden/habitat-skills/blob/main/skills/onboarding/SKILL.md) — Start here
 - [Founder Context](https://github.com/ycanerden/habitat-skills/blob/main/skills/founder-context/SKILL.md)
 - [Idea Validation](https://github.com/ycanerden/habitat-skills/blob/main/skills/idea-validation/SKILL.md)
 - [Competitor Research](https://github.com/ycanerden/habitat-skills/blob/main/skills/competitor-research/SKILL.md)
+- [Customer Segments](https://github.com/ycanerden/habitat-skills/blob/main/skills/customer-segments/SKILL.md)
 - [Landing Page](https://github.com/ycanerden/habitat-skills/blob/main/skills/landing-page/SKILL.md)
 - [MVP Scope](https://github.com/ycanerden/habitat-skills/blob/main/skills/mvp-scope/SKILL.md)
 - [Prototype Sprint](https://github.com/ycanerden/habitat-skills/blob/main/skills/prototype-sprint/SKILL.md)
+- [Pitch Deck](https://github.com/ycanerden/habitat-skills/blob/main/skills/pitch-deck/SKILL.md)
 - [First Users](https://github.com/ycanerden/habitat-skills/blob/main/skills/first-users/SKILL.md)
 - [Launch Plan](https://github.com/ycanerden/habitat-skills/blob/main/skills/launch-plan/SKILL.md)
+- [Social Content](https://github.com/ycanerden/habitat-skills/blob/main/skills/social-content/SKILL.md)
 
 **Tip:** Bookmark these links for quick access during the evening.
 
@@ -183,10 +231,21 @@ This creates a folder called "my-startup" and moves you into it. Name it whateve
 
 ## Step 3: Install Habitat Skills
 
-Still in Terminal, paste this:
+Still in Terminal, paste the command for your tool:
 
+**Claude Code:**
 ```
 git clone https://github.com/ycanerden/habitat-skills.git .claude/skills/habitat
+```
+
+**Gemini CLI or Antigravity:**
+```
+git clone https://github.com/ycanerden/habitat-skills.git .gemini/skills/habitat
+```
+
+**Cursor:**
+```
+git clone https://github.com/ycanerden/habitat-skills.git .cursor/skills/habitat
 ```
 
 This downloads all the Habitat Skills into your project. Done.
@@ -197,9 +256,12 @@ This downloads all the Habitat Skills into your project. Done.
 
 Launch your AI tool inside your project:
 
-```
-claude
-```
+| Tool | Command |
+|------|---------|
+| Claude Code | `claude` |
+| Gemini CLI | `gemini` |
+| Cursor | Open folder in Cursor → Cmd + L |
+| Antigravity | Open folder in Antigravity → open AI chat |
 
 Now you can talk to it and it knows all the Habitat frameworks. Here's what to try:
 
@@ -280,10 +342,11 @@ If you're at a Habitat evening, here's the recommended order:
 
 ### "I don't know how to use the terminal"
 
-That's okay. Two options:
+That's okay. Three options:
 
 1. **The basics:** Open Terminal (Cmd + Space → "Terminal"), type a command, press Enter. Copy-paste works (Cmd + V). That's all you need.
-2. **Skip the terminal:** Use [Option C](#option-c-google-gemini-free) or [Option D](#option-d-claudeai-or-chatgpt-no-install-needed) — just copy skill content into an AI chat in your browser.
+2. **Use an IDE instead:** Try [Cursor](#option-c-cursor-free-tier-available) or [Antigravity](#option-d-google-antigravity-free) — they're visual code editors with AI built in.
+3. **Skip everything:** Use [Google AI Studio](#option-e-google-ai-studio-easiest--free), [Claude.ai or ChatGPT](#option-f-claudeai-or-chatgpt-no-install-needed) — just copy skill content into an AI chat in your browser.
 
 ### "I don't have an idea yet"
 
@@ -309,7 +372,7 @@ It can usually fix it for you.
 
 - **Habitat Skills:** Free and open source, forever.
 - **At a Habitat evening:** Access is provided — you don't need to pay for anything.
-- **On your own:** Google Gemini is free. Claude.ai and ChatGPT have free tiers. Claude Code Pro is $20/month. Cursor has a free tier.
+- **On your own:** Gemini CLI, Google AI Studio, and Antigravity are free. Claude.ai and ChatGPT have free tiers. Claude Code is $20/month. Cursor has a free tier.
 
 ---
 
