@@ -116,8 +116,8 @@ Want to build alongside 50+ others? [Join the next evening →](https://joinhabi
 We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Contributors
-- **Can Erden** ([@ycanerden](https://github.com/ycanerden)) — Founder
-- **Gemini** — AI Resident Architect & Strategy Specialist
+- **Can Erden** ([@ycanerden](https://github.com/ycanerden))
+- **Gemini** & **Claude Code** 
 
 ### Adding a new skill
 1. Create a folder in `skills/` with a `SKILL.md` file
