@@ -4,7 +4,7 @@ Steve Blank, Marc Andreessen, and Paul Graham in your pocket. An AI agent framew
 
 Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible AI agents.
 
-From the team behind [Habitat](https://joinhabitat.eu) — where 101+ founders have launched prototypes in a single evening.
+From the team behind [Habitat](https://www.joinhabitat.eu) — where 101+ founders have launched prototypes in a single evening.
 
 ## 🆕 What's New
 
@@ -107,9 +107,9 @@ Or invoke directly:
 
 ## Built by Habitat
 
-These skills were born from 23+ prototypes launched at [Habitat](https://joinhabitat.eu) evenings — where founders go from idea to shipped product in 5 hours.
+These skills were born from 23+ prototypes launched at [Habitat](https://www.joinhabitat.eu) evenings — where founders go from idea to shipped product in 5 hours.
 
-Want to build alongside 50+ others? [Join the next evening →](https://joinhabitat.eu)
+Want to build alongside 50+ others? [Join the next evening →](https://www.joinhabitat.eu)
 
 ## Contributing
 

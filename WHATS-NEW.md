@@ -237,7 +237,7 @@ A: Yes! Add them to `templates/` and submit a PR. We welcome contributions.
 Found a bug? Have a suggestion? Want to contribute?
 
 - **GitHub Issues:** [github.com/ycanerden/habitat-skills/issues](https://github.com/ycanerden/habitat-skills/issues)
-- **Habitat Community:** [joinhabitat.eu](https://joinhabitat.eu)
+- **Habitat Community:** [joinhabitat.eu](https://www.joinhabitat.eu)
 
 ---
 

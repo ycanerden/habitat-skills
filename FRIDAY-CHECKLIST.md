@@ -260,7 +260,7 @@
 
 **After demo, for questions:**
 - GitHub: github.com/ycanerden/habitat-skills/issues
-- Habitat: joinhabitat.eu
+- Habitat: www.joinhabitat.eu
 
 ---
 
