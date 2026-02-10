@@ -1,6 +1,8 @@
-# Habitat Skills — The Operating System for Founders
+# Habitat Skills — Your AI Co-Founder
 
-A collection of AI agent skills that turn your AI coder into a Co-Founder and Marketing Director. Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible AI agents.
+Steve Blank, Marc Andreessen, and Paul Graham in your pocket. An AI agent framework that gives you expert advice on fundraising, marketing, launch strategy, and growth—like having a co-founder who's done it before.
+
+Built for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible AI agents.
 
 From the team behind [Habitat](https://joinhabitat.eu) — where 101+ founders have launched prototypes in a single evening.
 
@@ -32,6 +34,7 @@ Inspired by the methodologies of Corey Haines and the Habitat 5-hour sprint, the
 |-------|-------------|
 | [`founder-context`](skills/founder-context/SKILL.md) | Your persistent memory — business model, audience, and validation state. |
 | [`idea-validation`](skills/idea-validation/SKILL.md) | Structured frameworks (TAM, Problem-Solution, Mom Test). |
+| [`vc-research`](skills/vc-research/SKILL.md) | **NEW.** Pre-loaded insights from YC, a16z, Sequoia, Antler. Like having Horowitz, Steve Blank, or Paul Graham in your pocket. |
 | [`competitor-research`](skills/competitor-research/SKILL.md) | Find gaps and identify "unfair" positioning angles. |
 | [`portfolio-research`](skills/portfolio-research/SKILL.md) | **NEW.** Autonomous competitor research using Firecrawl web scraping. |
 | [`customer-segments`](skills/customer-segments/SKILL.md) | Personas, pain points, and specific outreach playbooks. |

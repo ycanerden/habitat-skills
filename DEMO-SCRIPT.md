@@ -40,9 +40,9 @@ You Google 'how to launch a product' and get 47 blog posts with generic advice. 
 ### Slide 2: What is Habitat Skills?
 
 **Say:**
-"Habitat Skills is an AI agent framework for founders. Instead of generic AI, you get structured playbooks for every marketing and growth challenge.
+"Habitat Skills is your AI co-founder. Instead of generic AI, you get expert advice from the best minds in startups.
 
-Think of it like this: ChatGPT is a smart intern. Habitat Skills is a marketing team."
+Think of it like this: ChatGPT is a smart intern. Habitat Skills is Steve Blank, Marc Andreessen, and Paul Graham in your pocket—guiding you through launch strategy, fundraising, marketing, and growth."
 
 **On screen:**
 - Show the skills directory (25+ skills)
