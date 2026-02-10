@@ -4,6 +4,14 @@ A collection of AI agent skills that turn your AI coder into a Co-Founder and Ma
 
 From the team behind [Habitat](https://joinhabitat.eu) — where 101+ founders have launched prototypes in a single evening.
 
+## 🆕 What's New
+
+**Autonomous Research:** Skills now use Firecrawl to autonomously research competitors, scrape pricing, and analyze positioning—no manual context required.
+
+**Simple Mode:** Non-technical founders get copy-paste templates, guided questions, and jargon-free outputs. Just say "use simple mode" to activate.
+
+**Demo-Ready:** Built for Friday's accelerator presentation with a complete demo flow, sample project, and backup materials.
+
 ## The "Founder as Director" Philosophy
 
 Inspired by the methodologies of Corey Haines and the Habitat 5-hour sprint, these skills are designed to empower you to act as a **Director**. Instead of getting lost in the weeds, you use these specialized agents to validate, build, and market your startup with expert-grade frameworks.
@@ -25,6 +33,7 @@ Inspired by the methodologies of Corey Haines and the Habitat 5-hour sprint, the
 | [`founder-context`](skills/founder-context/SKILL.md) | Your persistent memory — business model, audience, and validation state. |
 | [`idea-validation`](skills/idea-validation/SKILL.md) | Structured frameworks (TAM, Problem-Solution, Mom Test). |
 | [`competitor-research`](skills/competitor-research/SKILL.md) | Find gaps and identify "unfair" positioning angles. |
+| [`portfolio-research`](skills/portfolio-research/SKILL.md) | **NEW.** Autonomous competitor research using Firecrawl web scraping. |
 | [`customer-segments`](skills/customer-segments/SKILL.md) | Personas, pain points, and specific outreach playbooks. |
 
 ### Phase 2: Prototyping & Building
@@ -103,8 +112,11 @@ Want to build alongside 50+ others? [Join the next evening →](https://joinhabi
 
 We welcome contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Adding a new skill
+### Contributors
+- **Can Erden** ([@ycanerden](https://github.com/ycanerden)) — Founder
+- **Gemini** — AI Resident Architect & Strategy Specialist
 
+### Adding a new skill
 1. Create a folder in `skills/` with a `SKILL.md` file
 2. Follow the format of existing skills (YAML frontmatter + markdown)
 3. Keep files under 500 lines
