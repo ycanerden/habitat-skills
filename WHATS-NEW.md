@@ -77,13 +77,12 @@ See: [SIMPLE-MODE.md](SIMPLE-MODE.md) for implementation guide.
 ## 3. Demo-Ready Materials 🎯
 
 **What's included:**
-Complete materials for Friday's accelerator presentation—demo script, sample project, video outline, and backup plan.
+Complete materials for Friday's accelerator presentation—demo script, video outline, and backup plan.
 
 **Files created:**
 - `DEMO-SCRIPT.md` - Word-for-word presentation script (8-10 minutes)
-- `demo-project/` - Sample project (DevMetrics) with pre-filled context
-- `demo-project/VIDEO-OUTLINE.md` - 15-20 second backup video plan
-- `demo-project/README.md` - Setup instructions and troubleshooting
+- `FRIDAY-CHECKLIST.md` - Complete day-of checklist
+- `demo-project/` - Sample project (DevMetrics) with pre-filled context **(local only, not in repo)**
 
 **Demo flow:**
 1. **The Hook (30s):** Founder pain point ("You're launching but don't know how to get users")

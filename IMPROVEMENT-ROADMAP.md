@@ -111,9 +111,8 @@ Habitat Skills is an AI agent framework for founders. Instead of generic AI assi
 
 **Materials created:**
 - ✅ Complete demo script: `DEMO-SCRIPT.md` (word-for-word, includes Q&A prep)
-- ✅ Sample project: `demo-project/` with pre-filled `.claude/founder-context.md`
-- ✅ Video outline: `demo-project/VIDEO-OUTLINE.md` (15-20 second backup video)
-- ✅ Demo README: `demo-project/README.md` (setup instructions, troubleshooting)
+- ✅ Sample project: `demo-project/` with pre-filled context **(local only, not in repo)**
+- ✅ Demo checklist: `FRIDAY-CHECKLIST.md` (setup, troubleshooting, backup plans)
 - ⏳ Slides (create separately or use script as speaking notes)
 
 **Demo product (DevMetrics):**
