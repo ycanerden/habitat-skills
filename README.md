@@ -58,6 +58,15 @@ Inspired by the methodologies of Corey Haines and the Habitat 5-hour sprint, the
 | [`launch-plan`](skills/launch-plan/SKILL.md) | Phased launch strategy: Pre-launch -> Launch Day -> Post-launch. |
 | [`pitch-deck`](skills/pitch-deck/SKILL.md) | Elevator pitches, demo scripts, and objection prep. |
 
+### Phase 5: Sales & GTM
+
+| Skill | Description |
+|-------|-------------|
+| [`mom-test`](skills/mom-test/SKILL.md) | Run customer discovery conversations — ask about their life, not your idea |
+| [`gtm-strategy`](skills/gtm-strategy/SKILL.md) | Build a go-to-market strategy — ICP, motion, channels, messaging, 90-day plan |
+| [`sales-outreach`](skills/sales-outreach/SKILL.md) | Write cold email and LinkedIn sequences tailored to your ICP |
+| [`follow-up-tracks`](skills/follow-up-tracks/SKILL.md) | Handle every post-contact scenario — warm leads, ghosted, objections, post-demo |
+
 ## Installation
 
 ### Quick Install (Recommended)

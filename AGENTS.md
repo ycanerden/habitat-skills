@@ -20,6 +20,10 @@ Each skill is a markdown file at `skills/<skill-name>/SKILL.md` with YAML frontm
 - `first-users` — Find first 10-100 users with targeted playbooks
 - `launch-plan` — Create phased launch strategies
 - `social-content` — Create launch posts, build-in-public updates, and social media content
+- `mom-test` — Run customer discovery conversations using the Mom Test framework — avoid bias, identify real signals
+- `gtm-strategy` — Build a go-to-market strategy — ICP, motion, channels, messaging, 90-day plan
+- `sales-outreach` — Write cold email and LinkedIn outreach sequences tailored to ICP and product
+- `follow-up-tracks` — Handle every post-contact scenario — warm leads, ghosted, objections, post-demo closing
 
 ## Skill Format
 
